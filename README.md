@@ -4,7 +4,7 @@
 
 ### 1 使用说明
 
-![image-20220119113151550](readme.assets/image-20220119113151550.png)
+![image-20220119113151550](https://whale-picture.oss-cn-hangzhou.aliyuncs.com/img/image-20220119113151550.png)
 
 - 用户有两种方式提交文本，二种任选一种即可：
 
@@ -14,26 +14,24 @@
 
   如果直接点击提交会显示**输入不能为空**
 
-<img src="README.assets/image-20220121011528664.png" alt="image-20220121011528664" style="zoom:80%;" />
+<img src="https://whale-picture.oss-cn-hangzhou.aliyuncs.com/img/image-20220121011528664.png" alt="image-20220121011528664" style="zoom:80%;" />
 
 提交后会得到如下图所示的，按词性分好的多个可选项。此时用户可手动的选择导航栏上每一项所对应的标注，选择完毕后点击**保存案件与标注**可将标注结果传到后端，与文书文本一同保存在本地，分别命名为**标注.json**与**案件文本.txt**
 
-<img src="README.assets/image-20220121012303072.png" alt="image-20220121012303072" style="zoom:80%;" />
+<img src="https://whale-picture.oss-cn-hangzhou.aliyuncs.com/img/image-20220121012303072.png" alt="image-20220121012303072" style="zoom:80%;" />
 
 此时我们选择导航栏上每一项所对应的标注
 
-<img src="README.assets/image-20220121012426520.png" alt="image-20220121012426520" style="zoom:80%;" />
+<img src="https://whale-picture.oss-cn-hangzhou.aliyuncs.com/img/image-20220121012426520.png" alt="image-20220121012426520" style="zoom:80%;" />
 
 点击**保存案件与标注**，即可在后端看到在本地生成了两个文件**标注.json**与**案件文本.txt**，分别保存文书标注与文书的文本
 
-<img src="README.assets/image-20220121012602492.png" alt="image-20220121012602492" style="zoom:80%;" />
+<img src="https://whale-picture.oss-cn-hangzhou.aliyuncs.com/img/image-20220121012602492.png" alt="image-20220121012602492" style="zoom:80%;" />
 
 ### 2 代码结构
 
 ```bash
 .
-|  readme.assets # README文件中的截图
-|
 │  static # 静态文件
 |	|	background.png # 背景图片
 |	|	functions.js # js函数
